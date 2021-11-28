@@ -1,0 +1,315 @@
+body {
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	font-family: Poppins;
+}
+h3 {
+	size: 20px;
+	line-height: 30px;
+	font-weight: 600;
+}
+img {
+	position: static;
+	margin-left: 50vw;
+	margin-top: 15vh;
+	width: 600px;
+}
+.form {
+	width: 35vw;
+	height: 80vh;
+	position: absolute;
+	top: 13vh;
+	left: 15vh;
+	bottom: 15vh;
+	border: 1px solid #696969;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+
+#welcome {
+	font-weight: 300px;
+	font-size: 25px;
+	line-height: 37,5px;
+	position: relative;
+	top: 1vh;
+	left: 2.6vw;
+}
+h1 {
+	font-weight: 500px;
+	line-height: 46,5px;
+	position: relative;
+	left: 2.6vw;
+}
+.sub-heading {
+	position: relative;
+	left: 2.6vw;
+	top: -3vh;
+	font-size: 15px;
+	font-weight: 400px;
+}
+.username p {
+	position: relative;
+	left: 2.6vw;
+	top: 6vh;
+	font-size: 15px;
+	font-weight: 400px;
+}
+.username input[type="email"] {
+	position: relative;
+	top: 4vh;
+	left: 2.6vw;
+	border-radius: 6px;
+	border: 1px solid #696969;
+	width: 28vw;
+	height: 59px;
+}
+.username input[type="email" ]::placeholder{
+	color:#696969 ;
+	position: relative;
+	left: 1vw;
+	top: 0.4vh;
+	font-size: 14px;
+}
+.username {
+	position: relative;
+	top: -4vh;
+
+}
+div .password {
+	position: relative;
+	top: 2vh;
+	left: 2.6vw;
+}
+.password p {
+	font-size: 15px;
+	font-weight: 400px;}
+
+.password input[type="password"] {
+	position: relative;
+	top: -2vh;
+	border-radius: 6px;
+	border: 1px solid #696969;
+	width: 28vw;
+	height: 59px;
+}
+.password input[type="password" ]::placeholder{
+	color:#696969 ;
+	position: relative;
+	left: 1vw;
+	top: 0.4vh;
+	font-size: 14px;
+}
+.rememberMe {
+	position: relative;
+	top: 2vh;
+	left: 2.3vw;
+}
+#remember-parg{
+	font-size: 12px;
+	line-height: 18px;
+}
+a {
+	position: relative;
+	top: -1vh;
+	font-size: 12px;
+	left: 24vw;
+	color: #696969;
+}
+button[type="submit"] {
+	position: relative;
+	top: 3vh;
+	left: 2.7vw;
+	border-radius: 10px;
+	width: 28.5vw;
+	height: 57px;
+	background-color: #000;
+	color: #fff;
+	font-size: 19px;
+}
+.register {
+	position: relative;
+	top: 2vh;
+	left: 8vw;
+}
+.register p{
+	color: #696969;
+}
+.register a {
+	color: #000;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	position: relative;
+	left: 0.5vw;
+	top: 0.1vh;
+}
+
+@media screen and (max-width: 420px) {
+	body {
+	
+	font-family: Poppins;
+}
+h3 {
+	size: 18px;
+	line-height: 27px;
+	font-weight: 600;
+}
+
+.form {
+	width: 324px;
+	height: 641px;
+	position: absolute;
+	top: 100px;
+	left: 26px;
+	bottom: 135px;
+	border: 1px solid #696969;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+
+#welcome {
+	font-weight: 300px;
+	font-size: 19px;
+	line-height: 28,5px;
+	position: relative;
+	top: 22px;
+	left: 22px;
+}
+h1 {
+	font-weight: 500px;
+	font-size: 25px;
+	line-height: 37,5px;
+	position: relative;
+	left: 22px;
+	top: 26px;
+}
+.sub-heading {
+	position: relative;
+	left: 22px;
+	top: 5px;
+	font-size: 15px;
+	font-weight: 400px;
+	line-height: 24px;
+}
+.username p {
+	font-size: 15px;
+	font-weight: 400px;
+}
+.username input[type="email"] {
+	border-radius: 6px;
+	border: 1px solid #696969;
+	width: 278.83px;
+	height: 59px;
+}
+.username input[type="email" ]::placeholder{
+	color:#696969 ;
+	position: relative;
+	left: 1vw;
+	top: 0.4vh;
+	font-size: 14px;
+}
+.username {
+	position: relative;
+	left: 13px;
+	top: 12px;
+}
+div .password {
+	position: relative;
+	top: 55px;
+	left: 22px;
+}
+.password p {
+	font-size: 15px;
+	font-weight: 400px;}
+
+.password input[type="password"] {
+	position: relative;
+	top: -2vh;
+	border-radius: 6px;
+	border: 1px solid #696969;
+	width: 278.83px;
+	height: 59px;
+}
+.password input[type="password" ]::placeholder{
+	color:#696969 ;
+	position: relative;
+	left: 1vw;
+	top: 0.4vh;
+	font-size: 14px;
+}
+.rememberMe {
+	position: relative;
+	top: 48px;
+	left: 22px;
+}
+#remember-parg{
+	font-size: 12px;
+	line-height: 18px;
+
+}
+a {
+	position: relative;
+	top: 23px;
+	font-size: 12px;
+	left: 200px;
+	color: #696969;
+}
+button[type="submit"] {
+	position: relative;
+	top: 55px;
+	left: 24px;
+	border-radius: 10px;
+	width: 278.9px;
+	height: 57px;
+	background-color: #000;
+	color: #fff;
+	font-size: 19px;
+}
+.register {
+	position: relative;
+	top: 70px;
+	left: 11vw;
+}
+.register p{
+	color: #696969;
+	font-size: 14px;
+}
+.register a {
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+	position: relative;
+	left: 0.5vw;
+	top: 0.1vh;
+}
+img {
+	display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
